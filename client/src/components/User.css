@@ -1,0 +1,57 @@
+/* src/components/User.css */
+
+.user-info {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.user-info p {
+  text-align: center;
+  color: #888;
+}
+
+.user-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-info li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.user-info li:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.user-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0; /* Add margin between details */
+}
+
+.user-detail strong {
+  color: #333;
+  width: 150px; /* Fixed width for label alignment */
+}
+
+.user-detail span {
+  flex: 1; /* Allows the span to take remaining space */
+}
+
+@media (max-width: 600px) {
+  .user-info {
+    padding: 15px;
+  }
+}
